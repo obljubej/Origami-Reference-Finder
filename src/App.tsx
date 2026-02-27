@@ -17,8 +17,8 @@ export default function App() {
   const [paperWidth, setPaperWidth] = useState(1);
   const [paperHeight, setPaperHeight] = useState(1);
   const [targetMode, setTargetMode] = useState<TargetMode>('point');
-  const [xNorm, setXNorm] = useState(0.3125);
-  const [yNorm, setYNorm] = useState(0.7);
+  const [xNorm, setXNorm] = useState(0.312);
+  const [yNorm, setYNorm] = useState(0.723);
   const [tolerancePct, setTolerancePct] = useState(0.5);
   const [maxDepth, setMaxDepth] = useState(6);
 
